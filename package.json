@@ -1,0 +1,24 @@
+{
+  "name": "@pulsestorm/docker-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon start.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.7.0",
+    "handlebars": "^4.7.6",
+    "open": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "bin": {
+    "ps-dockerhelp": "./start.js"
+  }
+}
